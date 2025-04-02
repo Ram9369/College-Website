@@ -388,23 +388,25 @@ footer {
   }
   .new{
     width: 25%;
-    font-size:0.9rem;
+    font-size:0.7rem;
     align-items: center;
     
   }
  .post{
    
-    height: 10vmin;
+    height: 8vmin;
     align-items: center;
     font-size: 0.6rem;
-    gap: 10px;
+    gap: 1px;
+    
     
     
     
     }
     .post-Name{
       margin-left: 10px;
-      width: 80%;
+      width: 98%;
+      
 
 
     }
