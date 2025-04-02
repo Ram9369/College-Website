@@ -23,16 +23,26 @@ Header {
   color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3.1vmin;
-  font-weight: bolder;
+ 
+  width:60% ;
+  padding: 0.5rem;
 }
-.logo_img {
+.logo_img1 {
+  width: 20%;
   height: 13vmax;
   width: 13vmax;
   border: 1px solid none;
   border-radius: 150%;
   background-size: no-repeat;
 }
-
+.logo_img2 {
+  width: 20%;
+  height: 13vmax;
+  width: 13vmax;
+  border: 1px solid none;
+  border-radius: 150%;
+  background-size: no-repeat;
+}
 /* Navbar container */
 .navbar {
   background-color: #004080;
@@ -61,36 +71,7 @@ Header {
   color: black;
 }
 
-/* Responsive navbar - hamburger menu (hidden by default) */
-.menu-icon {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
-  padding: 14px;
-  float: right;
-}
 
-/* Dropdown container (hidden by default) */
-.navbar-collapse {
-  display: none;
-  background-color: #e2eaf3;
-  width: 100%;
-  clear: both;
-  padding: 1rem;
-  margin: 1rem;
-}
-
-/* Navbar links inside the dropdown menu */
-.navbar-collapse a {
-  float: none;
-  display: block;
-  text-align: left;
-  line-height: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 3vh;
-}
 
 .highlight {
   width: 100%;
@@ -376,25 +357,37 @@ footer {
 @media screen and (max-width: 985px) {
   header {
     
-    font-size: 1rem;
+    font-size: 0.2rem;
     display: block;
-    padding: 0rem;
+    padding: 0.2rem;
+    display: flex;
+    width: 100%;
+    gap: 0;
     
   }
-  .navbar a {
-    display: none;
+  .clgName{
+    font-size: 1.2rem;
+    width: 70%;
   }
-  .logo_img{
+  .logo1{
+    width: 30%;
+    padding: 0.2rem;
+  
+  }
+  .logo_img2{
     height: 0;
     width: 0;
     opacity: 0;
   
   }
-  
+  .navbar a {
+    display: none;
+  }
  
  .post .new{
     height: 14vmin;
     align-items: center;
+    justify-content: center;
     
     }
   .menu-icon {
@@ -444,7 +437,9 @@ footer {
 .min_name{
   padding-top: 2rem;
 }
-
+#edu{
+  height: 5vh;
+}
   
 }
 
