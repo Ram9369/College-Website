@@ -259,10 +259,10 @@ h4 {
   position: absolute;
   display: flex;
 
-  padding: 20px 20px;
+  padding: 20px;
   background: red;
   color: white;
-  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 95% 0, 100% 100%, 0 100%);
   list-style: none;
   font-size: 20px;
   z-index: 1;
@@ -358,37 +358,55 @@ footer {
   header {
     
     font-size: 0.2rem;
+    
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
     display: block;
-    padding: 0.2rem;
-    display: flex;
-    width: 100%;
-    gap: 0;
+    
+   
     
   }
   .clgName{
-    font-size: 1.2rem;
-    width: 70%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
-  .logo1{
-    width: 30%;
-    padding: 0.2rem;
   
-  }
   .logo_img2{
-    height: 0;
     width: 0;
+    height: 0;
     opacity: 0;
-  
   }
   .navbar a {
     display: none;
   }
- 
- .post .new{
-    height: 14vmin;
+  .high{
+    font-size: 0.7rem;
+    padding: .1rem;
+  }
+  .new{
+    width: 25%;
+    font-size:0.9rem;
     align-items: center;
-    justify-content: center;
     
+  }
+ .post{
+   
+    height: 10vmin;
+    align-items: center;
+    font-size: 0.6rem;
+    gap: 10px;
+    
+    
+    
+    }
+    .post-Name{
+      margin-left: 10px;
+      width: 80%;
+
+
     }
   .menu-icon {
     display: block;
