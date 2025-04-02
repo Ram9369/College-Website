@@ -23,8 +23,8 @@ Header {
   color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3.1vmin;
- 
-  width:60% ;
+
+  width: 60%;
   padding: 0.5rem;
 }
 .logo_img1 {
@@ -71,8 +71,6 @@ Header {
   color: black;
 }
 
-
-
 .highlight {
   width: 100%;
   max-width: 1200px;
@@ -108,15 +106,12 @@ Header {
 
 .container {
   width: 100%;
- 
-  
- 
+
   display: flex;
   justify-content: space-evenly;
 }
 
 .contain {
-  
   width: 100%;
   gap: 2px;
   display: flex;
@@ -201,7 +196,7 @@ Header {
   background-color: #d4f5f5;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   border: 1px solid brown;
-  
+
   margin-top: 0.5rem;
   border-radius: 5px;
   display: flex;
@@ -214,18 +209,15 @@ h4 {
   color: brown;
 }
 
-.mentor{
+.mentor {
   margin: 0.5rem;
   height: 10rem;
   width: 8rem;
   border-radius: 1rem;
 
- 
   background-size: cover;
   display: flex;
 }
-
-
 
 /* marquee.... */
 
@@ -255,14 +247,14 @@ h4 {
 }
 
 .post .new {
-  height: 9.6vmin;
+ 
   position: absolute;
   display: flex;
 
   padding: 20px;
   background: red;
   color: white;
-  clip-path: polygon(0 0, 95% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
   list-style: none;
   font-size: 20px;
   z-index: 1;
@@ -352,29 +344,24 @@ footer {
   background-color: #020225;
 }
 
-
 /* Responsive design: display mobile menu on smaller screens */
 @media screen and (max-width: 985px) {
   header {
-    
     font-size: 0.2rem;
-    
+
     padding: 1rem;
     align-items: center;
     justify-content: center;
     display: block;
-    
-   
-    
   }
-  .clgName{
+  .clgName {
     display: block;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
-  
-  .logo_img2{
+
+  .logo_img2 {
     width: 0;
     height: 0;
     opacity: 0;
@@ -382,34 +369,26 @@ footer {
   .navbar a {
     display: none;
   }
-  .high{
-    font-size: 0.7rem;
-    padding: .1rem;
-  }
-  .new{
-    width: 25%;
-    font-size:0.7rem;
-    align-items: center;
-    
-  }
- .post{
-   
-    height: 8vmin;
-    align-items: center;
+  .high {
     font-size: 0.6rem;
-    gap: 1px;
+    padding: 0.1rem;
+    display: block;
+  }
+  .new {
+    width: 20%;
+    font-size: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    display: block;
+  }
+  .post {
+    height: 2rem;
     
-    
-    
-    
-    }
-    .post-Name{
-      margin-left: 10px;
-      width: 98%;
-      
-
-
-    }
+    font-size: 0.6rem;
+  
+  }
+  .post-Name {
+  }
   .menu-icon {
     display: block;
     font-size: 1.6rem;
@@ -423,9 +402,7 @@ footer {
   /* Mobile menu - open state */
   .navbar.open .navbar-collapse {
     display: block;
-
   }
-  
 }
 @media screen and (max-width: 985px) {
   .contain {
@@ -437,30 +414,22 @@ footer {
     flex-grow: 3px;
     justify-content: center;
   }
-  .detail{
+  .detail {
     width: 99%;
-    
-    
   }
-  .notice
-{
-  width: 99%;
+  .notice {
+    width: 99%;
+  }
+  .head {
+    width: 99%;
+  }
+  .about_rec {
+    width: 99%;
+  }
+  .min_name {
+    padding-top: 2rem;
+  }
+  #edu {
+    height: 5vh;
+  }
 }
-.head{
-  width: 99%;
-  
- 
-}
-.about_rec {
-  width: 99%;
-}
-.min_name{
-  padding-top: 2rem;
-}
-#edu{
-  height: 5vh;
-}
-  
-}
-
-
