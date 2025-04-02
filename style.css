@@ -246,12 +246,12 @@ h4 {
   padding-left: 10rem;
 }
 
-.post .new {
+.new {
  
   position: absolute;
   display: flex;
 
-  padding: 20px;
+  padding: 10.2px;
   background: red;
   color: white;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
@@ -373,26 +373,26 @@ footer {
     font-size: 0.6rem;
     padding: 0.1rem;
     display: block;
-  }
+    text-align: left;  }
   .new {
     width: 20%;
     font-size: 0.6rem;
     align-items: center;
-    justify-content: center;
     display: block;
   }
   .post {
     height: 2rem;
-    
     font-size: 0.6rem;
   
   }
   .post-Name {
+    align-items: center;
+    text-align: left;
   }
   .menu-icon {
     display: block;
     font-size: 1.6rem;
-    padding: 0.1rem;
+   
   }
 
   .navbar-collapse {
