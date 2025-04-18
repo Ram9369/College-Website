@@ -354,10 +354,6 @@ footer {
     justify-content: center;
     display: block;
   }
-  .ram{
-    font-size: 2vmin;
-  }
-    font
   .clgName {
     display: block;
     align-items: center;
@@ -407,6 +403,7 @@ footer {
   .navbar.open .navbar-collapse {
     display: block;
   }
+  
 }
 @media screen and (max-width: 985px) {
   .contain {
@@ -420,6 +417,17 @@ footer {
   }
   .detail {
     width: 99%;
+  }
+  .ram{
+    font-size: 2vmin;
+    height: 11min;
+    display: inline-block;
+    gap:1vmin ;
+  }
+  .nav-link{
+    font-size: 2vmin;
+    display: inline-block;
+    flex-wrap: wrap;
   }
   .notice {
     width: 99%;
@@ -435,5 +443,6 @@ footer {
   }
   #edu {
     height: 5vh;
+    width: 20vw;
   }
 }
