@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+Header {
+  background-color: #e56060;
+  border: 1px solid none;
+  max-width: 100%;
+  padding: 1vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: vmax;
+  height: 10%;
+}
+
+.clgName {
+  color: rgb(243, 232, 232);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3vmin;
+
+  width: 80%;
+  padding: 0.5rem;
+}
+.logo_img1 {
+  width: 20%;
+  height: 10vmax;
+  width: 10vmax;
+  border: 1px solid none;
+  border-radius: 150%;
+  background-size: no-repeat;
+}
+.aff {
+  color: yellow;
+}
+.content {
+ 
+  height: 85vh;
+  
+}
+.contain {
+  background-image: url("backgrnmd.jpg");
+  background-size: cover;
+  height: 85vh;
+  padding: 5% 10% 2% 17%;
+  justify-content: center;
+  color: rgb(208, 253, 253);
+}
+
+.footer {
+  background: #15135f;
+    color: rgb(235, 232, 242);
+    padding: 20px 0 0 50px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 10vh;
+
+}
+@media screen and (max-width: 985px) {
+  .contain {
+    background-image: url("backgrnmd.jpg");
+    background-size: cover;
+    height: 85vh;
+    padding: 5% 10% 2% 17%;
+    justify-content: center;
+    color: rgb(207, 234, 234);
+  }
+  .footer {
+    background: #15135f;
+    color: rgb(235, 232, 242);
+    padding: 20px 0 0 40px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 10vh;
+  
+  }
+}
