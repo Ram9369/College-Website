@@ -354,6 +354,10 @@ footer {
     justify-content: center;
     display: block;
   }
+  .ram{
+    font-size: 0.2rem;
+  }
+    font
   .clgName {
     display: block;
     align-items: center;
